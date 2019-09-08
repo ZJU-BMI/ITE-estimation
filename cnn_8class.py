@@ -17,7 +17,7 @@ class CNN8class(object):
             self.conv1 = tf.layers.conv1d(
                 inputs=self.input_layer,
                 filters=32,
-                kernel_size=[12],
+                kernel_size=[8],
                 padding="same",
                 activation=tf.nn.relu)
 
